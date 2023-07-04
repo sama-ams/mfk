@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(#f6f4d2, #cbdfbd);
+    margin: 50px 40px;
+    text-align: center;
+    color: #252422;
+}
+h1, h3{
+    font-family: 'Crimson Text', serif;
+}
+h5 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Crimson Text', serif;
+    background: #a98467;
+    padding: 10px 15px;
+    margin-bottom: 18px;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    font-family: 'Open Sans', sans-serif;
+}
+.mfk{
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #a98467;
+}
+.os-img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #a98467;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("OS.jpg");
+    background-size: cover;
+}
+.os-img:hover{
+    background-image: url("OSC.jpg");
+    background-size: cover;
+}
+.am{
+    margin-top: 30px;
+}
+.am-img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #a98467;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("AM.jpg");
+    background-size: cover
+}
+.am-img:hover{
+    background-image: url("AMc.jpg");
+    background-size: cover;
+}
+.br{
+    margin-top: 30px;
+}
+.br-img{
+     width: 300px;
+    height: 300px;
+    border: 2px solid #a98467;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("BRc.jpg");
+    background-size: cover
+}
+.br-img:hover{
+    background-image: url(BR.jpg)
+}
